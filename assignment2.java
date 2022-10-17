@@ -1,29 +1,29 @@
 public class assignment2 {
     public static void main(String[] args) throws Exception {
        { 
-        int count = 0;
+        int loop = 0;
 
-         while (count != 3){
+         while (loop != 3){
             System.out.println("ACE");
-            count ++;
+            loop ++;
          }     
         
         // do while loop
 
-         int i = 0;
+         int j = 0;
          do {
             System.out.println("VIRAY");
-             i ++;
-        } while (i != 4);
+             j ++;
+        } while (j != 4);
 
         //for loop
 
-        for (int l = 0; l != 5;  l++) {
+        for (int t = 0; t != 5;  t++) {
             System.out.println("SALIENDRA");
         }
         // char array
         
-        String[] myFirstName = {"A","C","E"};
+        char[] myFirstName = {'A','C','E'};
 
         for (int counter = 0; counter < myFirstName.length; counter++) {
             System.out.println(myFirstName[counter]);
@@ -31,13 +31,13 @@ public class assignment2 {
 
         // char array in reverse
         
-        String[] myfirstname = {"E","C", "A"};
+        char[] myReveresedName = {'E','C','A'};
 
-        for (int l = 0; l < myFirstName.length; l++) {
-            System.out.println(myfirstname[l]);
+        for (int l = 0; l < myReveresedName.length; l++) {
+            System.out.println(myReveresedName[l]);
         }
     }
-
+    
 }
 
 }
