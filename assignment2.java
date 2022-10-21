@@ -25,19 +25,30 @@ public class assignment2 {
         
         char[] myFirstName = {'A','C','E'};
 
-        for (int counter = 0; counter < myFirstName.length; counter++) {
-            System.out.println(myFirstName[counter]);
-        }
+         for (int num = 0; num < myFirstName.length; num++) {
 
-        // char array in reverse
+            System.out.print(myFirstName[num]);
+
+         }
+
         
-        char[] myReveresedName = {'E','C','A'};
 
-        for (int l = 0; l < myReveresedName.length; l++) {
-            System.out.println(myReveresedName[l]);
-        }
+        System.out.println();
+
+         // firstname reverse
+
+         for (int num = myFirstName.length-1; num >= 0; num--) 
+
+            System.out.print(myFirstName[num]);
+
+        
+
     }
-    
-}
 
 }
+}
+    
+    
+
+
+
